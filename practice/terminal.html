@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Intro to HTML</title>
-    <script src='validate.js'></script>
+    <title>HTML Basics</title>
 </head>
 <body>
     <header>
-        <h1>Some Things to Know about HTML</h1>
+        <h1>Stuff You Should Know About HTML</h1>
     </header>
     <main>
-        <section bgcolor=powderblue>
-            <h2>Lists</h2>
-            <p>Lists can be used to:</p>
+        <section>
+            <div style="background-color: greenyellow">
+              <script src='validate.js'></script>
+            <h2> Why Lists are Useful in HTML</h2>
             <ul>
-                <li> Organize information</li>
-                <li> Make your website less jumbled </li>
-                <li> Order things with ordered lists! </li>
+                <li> They organize content </li>
+                <li> They can signify an order of things on an ordered list </li>
+                <li> They just make your stuff look better </li>
             </ul>
-
-            <p> So, how do I create a new html file in my repository?</p>
+            <h2>How do I add a List to my Website?</h2>
             <ol>
-                <li> Enter your directory </li>
-                <li> Type <code> vim example.html </li>
-                <li> Yay! You have a new HTML file! Now start writing your code! </li>
-            </ol>
-        </section>
-        <section bgcolor=fuchsia>
-            <h2> Changing how Text Looks </h2>
-            <p> There's many cool things you can do to change your text in HTML. One example is the <strong> strong </strong> tag, which bolds a section of text. Here's an example of how this would be used in code: <code> <strong> example </strong> </code>>
+                <li> Go to your HTML file. </li>
+                <li> Use the tag <code> ol </code> or <code> ul </code> depending on if you want your list to be numbers or bullets. </li>
+                <li> Exit your document and git add, commit, push! </li>
+                <li> Check your website to see the result! </li>
+                        </ol>
+            </div>
+            <div style="background-color: Bisque">
+            <h2> Style your text </h2>
+            <p> There are many ways to style your text in HTML. One way is to make your text <strong> bold </strong> using the <code> strong </code> tag. </p>
+            <br>
+            <br>
+            <p> Another cool thing you can do is show <kbd> keyboard </kbd> imput using the  <code> kbd </code> tag, which shows people what to type. </p>
+            <big> <kbd> Hi! I'm typing on a keyboard! </kbd> </big>
+            </div>
         </section>
     </main>
     <footer>
-        <p>Feel free to use any of my work as long as you thank the penguins.</p>
+        <p>Made by penguins.</p>
     </footer>
 </body>
 </html>
-

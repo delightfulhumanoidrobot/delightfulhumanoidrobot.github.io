@@ -1,0 +1,34 @@
+body{
+    background-color:lightseagreen;
+color: white;
+}
+a{
+    color:skyblue;
+}
+a:active{
+    color: red;
+}
+table, th, tr, td{i
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+nav ul {
+     display: flex;                        
+     list-style: none;     
+      align-items: center;                                          
+      padding: 0;
+    margin 0;  
+    background-color: black;    
+  } 
+  nav a {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 2px solid;
+      border-radius: 4px;
+      text-decoration: none;
+  }
+  nav a:hover {
+      background-color: grey;
+      border-color: white;
+  }

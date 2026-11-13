@@ -54,15 +54,12 @@
       padding: 1rem;
     }
     .c8 {
-      grid-area: ol;
+      grid-area: aside;
     }
     .c9 {
-      grid-area: main;
-    }
-    .c10 {
-      grid-area: aside;
-      width: 65%;
-      aspect-ratio: 4 / 3;
+      display: flex;
+      align-items: center;
+      padding: 1rem;
     }
   </style>
 </head>
@@ -89,10 +86,18 @@
   <button>Click me</button>
 </div>
 <main class="c7">
-  <p class="c8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
-  <h1 class="c9">Page Heading</h1>
-  <img src="placeholder.jpg" alt="" class="c10">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+  <h1>Page Heading</h1>
+  <nav class="c8">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Work</a>
+    <a href="#">Contact</a>
+  </nav>
 </main>
+<div class="c9">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</p>
+</div>
   <script>
   (function() {
     var s = document.createElement("script");
